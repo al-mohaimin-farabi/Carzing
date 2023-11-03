@@ -1,0 +1,8 @@
+.HeroBg {
+  background-image: url(../../assets/HeroBGMask.svg);
+}
+@media (max-width: 768px) {
+  .HeroBg {
+    background-image: url(../../assets/HeroBGMask-small.svg);
+  }
+}
