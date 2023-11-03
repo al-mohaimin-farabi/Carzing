@@ -59,7 +59,7 @@ const Hero = () => {
           </div>
 
           <div className="flex  my-0 lg:h-24 items-center">
-            <button className="py-2 px-4 text-white rounded bg-[#1F4590] my-2">
+            <button className="py-2 px-4 text-white rounded bg-[#1F4590] mt-4">
               Search For Cars
             </button>
           </div>
