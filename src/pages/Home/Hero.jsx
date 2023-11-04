@@ -1,4 +1,4 @@
-import HomeCss from "./Home.Module.css";
+import HomeCss from "./Home.module.css";
 
 const Hero = () => {
   return (
