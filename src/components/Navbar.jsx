@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-24 md:h-24 max-w-[1280px] mx-auto px-4 ">
+    <nav className="flex justify-between items-center h-24 md:h-24 max-w-[1280px] mx-auto px-4 ">
       <div className="md:w-20 w-[80px] flex-shrink-0 border-l-2 border-b-2 border-[#1f4590ad]">
         <a href="/">
           <img src={logo} alt="CarZing Logo" />
@@ -41,7 +41,7 @@ const Navbar = () => {
         }>
        
           <a href="/">
-            <img className="w-[80px] border-l-2 border-b-2 border-[#1f4590ad] mt-4 ms-2" src={logo} alt="CarZing Logo" />
+            <img className="w-[80px] border-l-2 border-b-2 border-[#1f4590ad] mt-2 ms-2" src={logo} alt="CarZing Logo" />
           </a>
        
         <ul className="mt-20  uppercase ">
@@ -59,7 +59,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 
